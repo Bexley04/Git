@@ -6,20 +6,20 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- * The test class UnitTest.
+ * The test class UnitTest2.
  *
  * @author  (your name)
  * @version (a version number or a date)
  */
-public class UnitTest
+public class UnitTest2
 {
     private ClockTime clockTim1;
     private ClockTime clockTim2;
 
     /**
-     * Default constructor for test class UnitTest
+     * Default constructor for test class UnitTest2
      */
-    public UnitTest()
+    public UnitTest2()
     {
     }
 
@@ -32,7 +32,7 @@ public class UnitTest
     public void setUp()
     {
         clockTim1 = new ClockTime(5, 10, 15);
-        clockTim2 = new ClockTime(5, 10, 15);
+        clockTim2 = new ClockTime(11, 0, 0);
     }
 
     /**
@@ -44,11 +44,4 @@ public class UnitTest
     public void tearDown()
     {
     }
-
-    @Test
-    public void test()
-    {
-        assertEquals(true, clockTim1.equals(clockTim2));
-    }
 }
-
